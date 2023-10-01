@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../files/fonts/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'Apple';
+    src: url('../files/fonts/SFUIText-Regular.otf');
+}
+@font-face {
+    font-family: 'Typewriter';
+    src: url('../files/fonts/ElegantTypewriter-YzBOy.ttf');
+}
+/*body {
+    font-family: 'Apple';
+    background: linear-gradient(to bottom, rgb(15, 15, 15), rgb(19, 19, 19) , #333);
+    background-color: rgba(105, 136, 161, 1);
+    background-image: linear-gradient(90deg, rgba(105, 136, 161, 1) 0%, rgba(135, 157, 171, 1) 50%, rgba(178, 169, 166, 1) 100%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+header, footer {
+    background-color: rgb(15, 15, 15);
+    background-color: rgb(73,74,97);
+    background-color: rgba(74, 75, 98, 1);
+    background-image: linear-gradient(90deg, rgba(74, 75, 98, 1) 0%, rgba(91, 96, 121, 1) 33%, rgba(119, 112, 125, 1) 66%, rgba(148, 141, 145, 1) 100%);
+    color: white;
+    text-align: center;
+    padding: 0.5vh;
+}*/
+/*--------------------------------------*/
+body {
+    font-family: 'Apple';
+    font-family: 'Typewriter';
+    background-color: rgb(0,0,0);
+    color: rgb(181,164,153);
+}
+header, footer {
+    padding: 0.5vh;
+}
+footer {
+    margin-top: 40em;
+}
+h1, footer {
+    text-align: center;
+}
+h1, h2, h3 {
+    font-weight: normal;
+}
+::selection {
+    color: black;
+    background-color: rgb(181,164,153);
+}
+/*--------------------------------------*/
+a {
+    text-decoration: none;
+    color: rgb(181,164,153);
+}
+#site-content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#rights p {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+#rights div {
+    margin-top: 2em;
+}
+#rights div p {
+    margin-top: 1em;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5vh;
+}
+nav a {
+    padding: 0.5em;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    color: black;
+    background-color: rgb(181,164,153);
+    transition: background-color 0.3s, color 0.3s;
+}
+/*--------------------------------------*/
