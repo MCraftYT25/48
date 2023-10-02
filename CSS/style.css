@@ -59,6 +59,13 @@ a {
     text-decoration: none;
     color: rgb(181,164,153);
 }
+.bold {
+    font-weight: bold;
+}
+.normal {
+    font-weight: normal;
+}
+/*--------------------------------------*/
 #site-content {
     margin-left: 5%;
     margin-right: 5%;
@@ -86,5 +93,18 @@ nav a:hover {
     color: black;
     background-color: rgb(181,164,153);
     transition: background-color 0.3s, color 0.3s;
+}
+.laws-desc {
+    color: white;
+}
+/*--------------------------------------*/
+#updates {
+    margin-top: 1vh;
+}
+.update {
+    margin-bottom: 1vh;
+}
+.update-vr {
+    font-size: 1.5em;
 }
 /*--------------------------------------*/
