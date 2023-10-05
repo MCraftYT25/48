@@ -14,6 +14,10 @@
     font-family: 'Typewriter';
     src: url('../files/fonts/ElegantTypewriter-YzBOy.ttf');
 }
+@font-face {
+    font-family: 'Roadway';
+    src: url('../files/fonts/Roadway.ttf');
+}
 /*body {
     font-family: 'Apple';
     background: linear-gradient(to bottom, rgb(15, 15, 15), rgb(19, 19, 19) , #333);
@@ -34,6 +38,7 @@ header, footer {
 /*--------------------------------------*/
 body {
     font-family: 'Apple';
+    font-family: 'Roadway';
     font-family: 'Typewriter';
     background-color: rgb(0,0,0);
     color: rgb(181,164,153);
@@ -69,6 +74,7 @@ a {
 #site-content {
     margin-left: 5%;
     margin-right: 5%;
+    max-width: 800px;
 }
 #laws p {
     margin-top: 0.5vh;
@@ -97,6 +103,9 @@ nav a:hover {
 .laws-desc {
     color: white;
 }
+#laws img {
+    max-width: 700px;
+}
 /*--------------------------------------*/
 #updates {
     margin-top: 1vh;
@@ -107,4 +116,16 @@ nav a:hover {
 .update-vr {
     font-size: 1.5em;
 }
+#laws-button button {
+    background-color: transparent;
+    color: rgb(181,164,153);
+    font-family: 'Typewriter';
+    font-size: 1.1em;
+    border: 0;
+    border: solid 1px rgb(181,164,153);
+    width: 4em;
+}
+/*#laws-button button:focus {
+    border: 0;
+}*/
 /*--------------------------------------*/

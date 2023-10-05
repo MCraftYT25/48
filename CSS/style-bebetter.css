@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Roadway';
+    src: url('../files/fonts/Roadway.ttf');
+}
+body {
+    font-family: 'Roadway';
+}
