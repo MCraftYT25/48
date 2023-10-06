@@ -117,15 +117,32 @@ nav a:hover {
     font-size: 1.5em;
 }
 #laws-button button {
-    background-color: transparent;
-    color: rgb(181,164,153);
     font-family: 'Typewriter';
-    font-size: 1.1em;
     border: 0;
     border: solid 1px rgb(181,164,153);
     width: 4em;
+    background-color: rgb(181,164,153);
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
 }
-/*#laws-button button:focus {
+#mobile-menu {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(181,164,153);
+}
+#mobile-menu button {
+    font-family: 'Typewriter';
     border: 0;
-}*/
+    border: solid 1px rgb(181,164,153);
+    background-color: rgb(181,164,153);
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    height: 2em;
+    padding: 0.5em;
+    width: 4em;
+}
+
 /*--------------------------------------*/

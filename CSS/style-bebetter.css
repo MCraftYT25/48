@@ -2,6 +2,24 @@
     font-family: 'Roadway';
     src: url('../files/fonts/Roadway.ttf');
 }
+@font-face {
+    font-family: 'News-Gothic';
+    src: url('../files/fonts/News\ Gothic\ Condensed\ BT.ttf');
+}
 body {
     font-family: 'Roadway';
+    font-family: 'News-Gothic';
+    font-weight: bold
+}
+h1 {
+    font-weight: bold;
+}
+a {
+    font-weight: bold;
+}
+header img {
+    width: 15em;
+}
+header {
+    background-color: #222;
 }

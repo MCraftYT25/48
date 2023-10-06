@@ -169,7 +169,8 @@ function expand()
   for(i = 1; i<49; i++)
   {
     document.getElementsByClassName('laws-desc')[i-1].innerHTML = expand_laws(i);
-    document.getElementById('laws-button').innerHTML = '<button class="laws-button" onclick="collapse();">Zwiń</button>'
+    document.getElementById('laws-button').innerHTML = '<button class="laws-button" onclick="collapse();">Zwiń</button>';
+    document.getElementById('laws-button2').innerHTML = '<span id="laws-button2"><button onclick="collapse();">ZWIŃ</button></span>';
   }
   
 }
@@ -178,7 +179,8 @@ function collapse()
   for(i = 1; i<49; i++)
   {
     document.getElementsByClassName('laws-desc')[i-1].innerHTML = "";
-    document.getElementById('laws-button').innerHTML = '<button class="laws-button" onclick="expand();">Rozwiń</button>'
+    document.getElementById('laws-button').innerHTML = '<button class="laws-button" onclick="expand();">Rozwiń</button>';
+    document.getElementById('laws-button2').innerHTML = '<span id="laws-button2"><button onclick="expand();">ROZWIŃ</button></span>';
   }
 }
 
